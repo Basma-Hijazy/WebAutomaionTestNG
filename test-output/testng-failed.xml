@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:\Users\Basma Hijazy\IdeaProjects\TestNGproject(failed)">
+    <classes>
+      <class name="tests.T8_CreateOrderTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="userConfirmOrder"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.T8_CreateOrderTest -->
+      <class name="tests.T1_RegistrationTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="userRegisterWithExistingEmail"/>
+          <include name="userRegisterWithInvalidEmail"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.T1_RegistrationTest -->
+    </classes>
+  </test> <!-- C:\Users\Basma Hijazy\IdeaProjects\TestNGproject(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

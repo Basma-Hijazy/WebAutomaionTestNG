@@ -1,0 +1,18 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" >
+    <test name="C:\Users\Basma Hijazy\IdeaProjects\TestNGproject" preserve-order="true">
+        <classes>
+            <class name="tests.T1_RegistrationTest"/>
+            <class name="tests.T2_LoginTest"/>
+            <class name="tests.T3_ResetPasswordTest"/>
+            <class name="tests.T4_SearchTest"/>
+            <class name="tests.T5_SelectCategoryTest"/>
+            <class name="tests.T6_AddToWishListTest"/>
+            <class name="tests.T7_AddToCartTest"/>
+            <class name="tests.T8_CreateOrderTest"/>
+        </classes>
+
+    </test>
+</suite>
